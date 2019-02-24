@@ -8,7 +8,7 @@ react-redux store API:
 }
 ```
 
-`react-store`是依照`react-redux` API实现在一个状态管理库，参考了`Vuex`的结构
+`react-store`是依照`react-redux` API实现的一个状态管理库，参考了`Vuex`的结构
 
 * `getState`获取最新状态
 * `actions`执行异步操作，通过`dispatch`触发
