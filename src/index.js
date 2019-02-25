@@ -141,4 +141,14 @@ export default class Store {
         };
     }
 }
+const instance = new Store({ data: {} });
+export const store = {
+    getState: instance.getState.bind(instance),
+    dispatch: instance.dispatch.bind(instance),
+    commit: instance.commit.bind(instance),
+    registerModule: instance.registerModule.bind(instance),
+    unregisterModule: instance.unregisterModule.bind(instance),
+    subscribe: instance.subscribe.bind(instance),
+    addMutationHook: instance.addMutationHook.bind(instance)
+};
 //# sourceMappingURL=index.js.map
