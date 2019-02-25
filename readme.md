@@ -17,3 +17,4 @@ react-redux store API:
 * `unregisterModule`取消注册的模块
 
 查看[代码实现](src/index.ts)
+查看[demo](https://github.com/w-rudolph/react-store-demo)
